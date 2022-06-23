@@ -6,6 +6,7 @@ import { Course } from "./course";
 })
 export class CourseService{
 
+    //método
     retrieveall(): Course[]{
         return COURSES;
     }
